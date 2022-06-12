@@ -1,0 +1,89 @@
+/* index.css */
+
+body {
+    color: rgba(186, 131, 199, 0.823);
+    background-color: rgba(216, 204, 230, 0.671);
+    text-align: center;
+    
+  }
+  
+  img{
+      height:auto;
+      width:250px;
+      text-align: center;
+      border: 15px solid lavender;
+      padding: 2px;
+
+
+  }
+  p {
+    color: rgba(12, 12, 11, 0.845);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+    text-align: center;
+
+  }
+
+  h1 {
+    
+    color:rgba(153, 73, 123, 0.391);
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: center;
+    font-weight: 700;
+    text-decoration-line: underline;
+    flex-wrap: nowrap;
+  }
+
+  ul{
+      color:rgba(136, 95, 121, 0.742) ;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+      text-align: center;
+    }
+  title{
+    text-align: center;
+  }
+ div{
+   text-align: left;
+ }
+
+ #Pages{
+  font-size: large;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  color: black;
+  background-color:rgb(228, 157, 181);
+  padding: 12px;
+  border: 15px solid snow;
+  margin: 15px; 
+}
+ #Links{
+   font-size: large;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   text-align: center;
+   background-color:snow ;
+   padding: 10px;
+   border: 2px solid black ;
+   margin: 5px;
+ }
+
+#product-1{
+  padding:10px;
+  border: 2px solid black;
+  margin: 50px;
+  background-color:antiquewhite;
+}
+#product-2{
+  padding: 10px;
+  border:2px solid black;
+  margin: 50px;
+  background-color: antiquewhite;
+}
+#product-3{
+  padding:10px;
+  border: 2px solid black;
+  margin: 50px;
+  background-color: antiquewhite;
+}
+h3{
+  text-align: center;
+}
