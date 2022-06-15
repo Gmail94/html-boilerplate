@@ -14,15 +14,13 @@ body {
       border: 15px solid lavender;
       padding: 2px;
       margin:auto;
-
-
   }
+  
   p {
     color: rgba(12, 12, 11, 0.845);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: small;
     text-align: center;
-
   }
 
   h1 {
@@ -52,15 +50,18 @@ body {
    margin:auto;
  }
 
- #Pages{
+ .Pages{
   font-size: large;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  text-align: center;
+  justify-content: center;
   color: black;
   background-color:rgb(228, 157, 181);
-  padding: 12px;
-  border: 15px solid snow;
-  margin: 15px; 
+  padding: 15px;
+  border: 12px solid snow;
+  display: flex;
+  flex:2;
+  margin: 48px;
+
 }
  #Links{
    font-size: large;
@@ -94,4 +95,14 @@ body {
 }
 h3{
   text-align: center;
+}
+
+.home-button{
+  display: flex;
+  justify-content: center;
+  background-color:white ;
+  padding: 2px;
+  border: 2px solid black;
+  margin: auto;
+  width: fit-content;
 }
